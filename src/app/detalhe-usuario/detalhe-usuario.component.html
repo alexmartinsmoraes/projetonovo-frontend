@@ -1,0 +1,29 @@
+<div class="container">
+
+    <div class="panel-heading">
+      <h2>Detalhes do Usuário</h2>
+    </div>
+    <div class="panel-body">
+        <div>
+            <span>id</span> {{ usuario.id }} 
+        </div>
+        <div>
+            <span>nome</span> {{ usuario.nome }} 
+        </div>
+        <div>
+            <span>usuario</span> {{ usuario.usuario }} 
+        </div>
+        <div>
+            <span>senha</span> {{ usuario.senha }} 
+        </div>
+        <div>
+            <span>ativo</span> {{ usuario.ativo }} 
+        </div>
+        <br>
+        <br>
+        <button (click)="retornaAListagem()" class="btn btn-primary">retornar</button>
+        
+
+    </div>
+
+</div>  

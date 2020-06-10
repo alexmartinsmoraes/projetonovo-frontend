@@ -1,0 +1,26 @@
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">id</th>
+        <th scope="col">Nome</th>
+        <th scope="col">Usuáro</th>
+        <th scope="col">Senha</th>
+        <th scope="col">Ativo</th>
+        <th scope="col">Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let usuario of usuarios | async">
+        <td scope="row">{{ usuario.id }}</td>
+        <td>{{ usuario.nome }}</td>
+        <td>{{ usuario.usuario }}</td>
+        <td>{{ usuario.senha }}</td>
+        <td>{{ usuario.ativo }}</td>
+        <td><button (click)="deletarporid(usuario.id)" type="button" class="btn btn-danger" style= "margin-right: 10px">Deleta</button>
+            <button (click)="detalharporid(usuario.id)" type="button" class="btn btn-success" style= "margin-right: 10px"> Detalhar</button>
+            <button (click)="atualizaporid(usuario.id)" type="button" class="btn btn-primary">Atualiza</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+

@@ -1,0 +1,60 @@
+{
+  "usuarios": [
+    {
+      "id": 3,
+      "nome": "Augusto Moraes",
+      "usuario": "augusto",
+      "senha": "1234",
+      "ativo": "true"
+    },
+    {
+      "id": 4,
+      "nome": "Paulo da Silva",
+      "usuario": "silva",
+      "senha": "1234",
+      "ativo": "true"
+    },
+    {
+      "id": 5,
+      "nome": "Maria Moraes",
+      "usuario": "maria",
+      "senha": "1234",
+      "ativo": "true"
+    },
+    {
+      "ativo": true,
+      "nome": "ALEX MARTINS MORAES",
+      "usuario": "lulio.lj",
+      "senha": "5555",
+      "id": 6
+    },
+    {
+      "ativo": "false",
+      "nome": "ALEX MORAES",
+      "usuario": "amoraes47@gmail.com",
+      "senha": "1221",
+      "id": 7
+    },
+    {
+      "ativo": "false",
+      "nome": "Jose da silva xavier",
+      "usuario": "Xavier",
+      "senha": "123456.",
+      "id": 8
+    },
+    {
+      "ativo": true,
+      "nome": "Mary da Silva",
+      "usuario": "Mary",
+      "senha": "1234566",
+      "id": 9
+    },
+    {
+      "ativo": true,
+      "nome": "Pedro de Alcantara",
+      "usuario": "Pedro",
+      "senha": "1234856.",
+      "id": 10
+    }
+  ]
+}
